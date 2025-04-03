@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money.io</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body id="body">
+    <h1 class="center-x">Money.io</h1>
+    <div id="centerDiv" class="center">
+        <p id="moneyText">Money: 0</p>
+        <p id="mps">Money per second: 0</p>
+        <button id="moneyButton"><img src="/assets/money.svg"></button>
+    </div>
+
+    <div class="upgradesDiv">
+        <div id="upgrades" class="upgrades">
+            <div id="lemonadeStand" class="upgrade">
+                <p>Lemonade Stand</p>
+                <p>Cost: 30</p>
+                <button id="lemonadeStandBtn">Buy</button>
+            </div>
+            <div id="vendingMachine" class="upgrade">
+                <p>Vending machine</p>
+                <p>Cost: 250</p>
+                <button id="vendingMachineBtn">Buy</button>
+            </div>
+            <div id="goldenPen" class="boost">
+                <p>Get golden pen</p>
+                <p>Cost: 350</p>
+                <button id="goldenPenBtn">Buy</button>
+            </div>
+        </div>
+
+
+        <div id="boosts" class="boosts">
+            <div id="changeBg" class="boost">
+                <p>Get gold background</p>
+                <p>Cost: 1000</p>
+                <button id="changeBgBtn">Buy</button>
+            </div>
+         </div>
+    </div>  
+
+    <div id="bottomDiv" class="bottom">
+        <button id="resetButton"><img src="/assets/reset-icon.svg"></button>
+    </div>
+        
+    <script src="/script.js"></script>
+</body>
+</html>
